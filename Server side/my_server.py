@@ -4,7 +4,7 @@ import socket
 import threading
 import sys
 
-PORT = int(sys.argv[1])
+PORT=5000
 
 class ClientHandler(threading.Thread):
     def __init__(self, client_socket, client_address):
