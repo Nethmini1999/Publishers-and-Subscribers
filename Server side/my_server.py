@@ -67,7 +67,7 @@ class Server:
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python server_app.py <port>")
+        print("Usage: python my_server.py <port>")
         sys.exit(1)
 
     port = int(sys.argv[1])
