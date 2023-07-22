@@ -1,6 +1,13 @@
 import socket
 import sys
 
+HEADER =64
+PORT=5000
+
+SERVER="127.0.0.1" 
+ADDR=(SERVER,PORT)
+FORMAT='utf-8'
+
 class MyClientApp:
     def __init__(self, server_ip, port, client_type):
         self.server_ip = server_ip
