@@ -51,7 +51,7 @@ class MyClientApp:
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        print("Usage: python my_client_app.py <server_ip> <port> <client_type>")
+        print("Usage: python my_client.py <server_ip> <port> <client_type>")
         sys.exit(1)
 
     server_ip = sys.argv[1]
